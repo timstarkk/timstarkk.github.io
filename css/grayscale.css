@@ -114,6 +114,30 @@
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  margin-bottom: 1.5rem !important;
+}
+
+.masthead .social {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.masthead .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.masthead .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.masthead .social a:active {
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -168,7 +192,8 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
@@ -206,6 +231,34 @@
     border-width: .25rem;
     width: 30%;
   }
+}
+
+.projects-section .btn {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
+.projects-section .btn-primary {
+  background-color: #64a19d;
+}
+
+.projects-section .btn-primary:hover {
+  background-color: #4f837f;
+}
+
+.projects-section .btn-primary:focus {
+  background-color: #4f837f;
+  color: white;
+}
+
+.projects-section .btn-primary:active {
+  background-color: #467370 !important;
 }
 
 .signup-section {
